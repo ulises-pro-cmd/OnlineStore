@@ -1,0 +1,19 @@
+# Credenciales y configuracion local
+.env
+.env.*
+!.env.example
+config/google_config.local.php
+config/conexion.local.php
+
+# Dependencias generadas y archivos de descarga
+google-api-php-client/*
+!google-api-php-client/composer.json
+!google-api-php-client/composer.lock
+
+# Herramientas de prueba locales
+tools/prueba.php
+
+# Archivos generados por el sistema/IDE
+.vscode/
+*.log
+*.tmp
